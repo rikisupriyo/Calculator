@@ -22,25 +22,4 @@ Array.from(buttons).forEach((button) => {
             document.querySelector("input").value = string;
         }
     })
-
-    // button.addEventListener("click", function() {
-    //     let buttonpressed = this.innerHTML 
-
-    //     if (buttonpressed == "=") {
-    //         string = eval(string);
-    //         document.querySelector("input").value = string;
-    //     }
-    //     else if(buttonpressed == "del") {
-    //         string = "";
-    //         document.querySelector("input").value = string;
-    //     }
-    //     else if(buttonpressed == "C") {
-    //         string = string.slice(0,-1);
-    //         document.querySelector("input").value = string;
-    //     }
-    //     else {
-    //         string += buttonpressed;
-    //         document.querySelector("input").value = string;
-    //     }
-    // })
 })
